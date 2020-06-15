@@ -6,7 +6,7 @@ version := "0.1"
 scalaVersion := "2.11.12"
 
 val sparkVersion = "2.4.4"
-
+scalacOptions += "-Xfatal-warnings"
 resolvers ++= Seq(
   "apache-snapshots" at "http://repository.apache.org/snapshots/"
 )
