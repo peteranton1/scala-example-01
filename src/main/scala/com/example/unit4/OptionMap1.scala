@@ -1,13 +1,12 @@
 package com.example.unit4
 
 case class CarB(model: String,
-                owner: Option[PersonB],
+                owner: Option[PersonC],
                 registrationPlate: Option[String])
 
 case class PersonB(name: String,
                    age: Int,
                    drivingLicense: Option[String])
-
 class OptionMap1 {
   def ownerName(car: CarB): Option[String] =
     car.owner.map(p => p.name)
@@ -33,7 +32,7 @@ class OptionMap1 {
 
 object OptionMap1 extends App {
   val app1 = new OptionMap1
-  val car1 = CarB("escortA", Some(PersonB("Ted", 25, Some("xyZ"))), Some("ABC"))
+  val car1 = CarB("escortA", Some(PersonC("Ted", 25, Some("xyZ"))), Some("ABC"))
   val car2 = CarB("escortB", None, Some("Abc123"))
   println(app1.ownerName(car1))
   println(app1.ownerName(car2))
