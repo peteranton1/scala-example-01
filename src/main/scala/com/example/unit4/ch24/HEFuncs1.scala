@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class HEFuncs1 {
   def stats(s:String, predicate: Char => Boolean):Int =

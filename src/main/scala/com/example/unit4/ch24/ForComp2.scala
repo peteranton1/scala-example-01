@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class ForComp2 {
   def foo(optA: Option[Int]): Option[Int] =

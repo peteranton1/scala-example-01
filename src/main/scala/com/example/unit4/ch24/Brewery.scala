@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 case class Brewery(name:String)
 case class Beer(name:String, brewery:Brewery)

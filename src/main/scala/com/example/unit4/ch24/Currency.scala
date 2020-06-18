@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 sealed trait Currency
 case object USD extends Currency

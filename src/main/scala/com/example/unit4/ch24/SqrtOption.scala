@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class SqrtOption {
   def sqrt(n: Int): Option[Double] =

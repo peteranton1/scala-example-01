@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class GreetingOption {
   def greetings(s: Option[String] = None):String =

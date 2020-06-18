@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class FilterWord {
   def filter(text:String,word:String):Option[String] =

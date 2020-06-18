@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class HEFuncs4 {
   def operationWithFallback(n: Int, operation: Int => Int, fallback: Int): Int =

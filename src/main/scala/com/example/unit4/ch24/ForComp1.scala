@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 case class CarC(model: String,
                 owner: Option[PersonC],

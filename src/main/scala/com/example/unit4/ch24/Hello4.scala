@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 object Hello4 {
   case class Person(name:String, age: Int)

@@ -1,4 +1,4 @@
-package com.example.unit4
+package com.example.unit4.ch24
 
 class HEFuncs2 {
   def foo(n: Int, f: Int => Double = _.toDouble): Double =
